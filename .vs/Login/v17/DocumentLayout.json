@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F1E0E-848D-4FA5-8507-75DE8962B1DA}|DAL\\DAL.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F1E0E-848D-4FA5-8507-75DE8962B1DA}|DAL\\DAL.csproj|solutionrelative:dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\login\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\login\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\classmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\classmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\teachermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\teachermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\login\\teachermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\teachermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\tuiition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\tuiition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\healthcare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\healthcare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\DAL\\Connection.cs",
+              "RelativeDocumentMoniker": "DAL\\Connection.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\DAL\\Connection.cs",
+              "RelativeToolTip": "DAL\\Connection.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T02:52:16.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "Login\\Login.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Login.cs",
+              "RelativeToolTip": "Login\\Login.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA+wGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T02:50:36.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "Login\\Login.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Login.cs [Design]",
+              "RelativeToolTip": "Login\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T01:23:17.443Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmConfig.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\frmConfig.cs",
+              "RelativeDocumentMoniker": "Login\\frmConfig.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\frmConfig.cs",
+              "RelativeToolTip": "Login\\frmConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T01:19:14.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmConfig.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\frmConfig.cs",
+              "RelativeDocumentMoniker": "Login\\frmConfig.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\frmConfig.cs [Design]",
+              "RelativeToolTip": "Login\\frmConfig.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T01:18:57.915Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Student.cs",
+              "RelativeDocumentMoniker": "Login\\Student.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Student.cs",
+              "RelativeToolTip": "Login\\Student.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAkwLYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T09:53:02.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeacherManage.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\TeacherManage.cs",
+              "RelativeDocumentMoniker": "Login\\TeacherManage.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\TeacherManage.cs",
+              "RelativeToolTip": "Login\\TeacherManage.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAiwKgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T09:16:48.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Home.cs",
+              "RelativeDocumentMoniker": "Login\\Home.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Home.cs [Design]",
+              "RelativeToolTip": "Login\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T06:50:02.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeacherManage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\TeacherManage.cs",
+              "RelativeDocumentMoniker": "Login\\TeacherManage.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\TeacherManage.cs [Design]",
+              "RelativeToolTip": "Login\\TeacherManage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T10:00:36.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClassManage.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\ClassManage.cs",
+              "RelativeDocumentMoniker": "Login\\ClassManage.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\ClassManage.cs",
+              "RelativeToolTip": "Login\\ClassManage.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAIA6wGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T09:02:46.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HealthCare.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\HealthCare.cs",
+              "RelativeDocumentMoniker": "Login\\HealthCare.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\HealthCare.cs",
+              "RelativeToolTip": "Login\\HealthCare.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswI4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:39:28.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tuiition.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Tuiition.cs",
+              "RelativeDocumentMoniker": "Login\\Tuiition.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Tuiition.cs",
+              "RelativeToolTip": "Login\\Tuiition.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAcwMUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:32:18.346Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

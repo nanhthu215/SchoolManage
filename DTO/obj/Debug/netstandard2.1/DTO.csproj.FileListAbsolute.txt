@@ -1,0 +1,10 @@
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\bin\Debug\netstandard2.1\DTO.deps.json
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\bin\Debug\netstandard2.1\DTO.dll
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\bin\Debug\netstandard2.1\DTO.pdb
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.AssemblyInfoInputs.cache
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.AssemblyInfo.cs
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.csproj.CoreCompileInputs.cache
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.dll
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.pdb
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.csproj.AssemblyReference.cache

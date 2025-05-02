@@ -1,0 +1,15 @@
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\bin\Debug\netstandard2.1\BUS.deps.json
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\bin\Debug\netstandard2.1\BUS.dll
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\bin\Debug\netstandard2.1\BUS.pdb
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.AssemblyInfoInputs.cache
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.AssemblyInfo.cs
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.csproj.CoreCompileInputs.cache
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.dll
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.pdb
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\bin\Debug\netstandard2.1\DAL.dll
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\bin\Debug\netstandard2.1\DTO.dll
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\bin\Debug\netstandard2.1\DAL.pdb
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\bin\Debug\netstandard2.1\DTO.pdb
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.csproj.AssemblyReference.cache
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.csproj.Up2Date

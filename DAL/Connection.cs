@@ -11,7 +11,6 @@ namespace DAL
 {
     public class Connection
     {
-        //private static string connectionString = "initial catalog = SchoolManage; data source = NANHTHU215\\NANHTHU; integrated security = true";
         private static string connectionString = ReadConnectionString();
 
         private static string ReadConnectionString()
@@ -73,6 +72,16 @@ namespace DAL
             }
         }
 
+        public static void ActionQueryNoReturn(string query, SqlParameter[] parameters)
+        {
+            using (SqlConnection conn = Connection.GetConnection())
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddRange(parameters);
+                cmd.ExecuteNonQuery(); // Không cần sử dụng giá trị trả về
+            }
+        }
 
         // Thực hiện truy vấn SQL trả về dữ liệu (SELECT)
         public static DataTable selectQuery(string sql)
@@ -86,6 +95,11 @@ namespace DAL
                 return dt;
             }
         }
+        public static string ConnectionString
+        {
+            get { return connectionString; }
+        }
+
         public static DataTable selectQuery(string sql, SqlParameter[] parameters = null)
         {
             using (SqlConnection cn = GetConnection())

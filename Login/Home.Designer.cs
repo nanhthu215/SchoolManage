@@ -298,9 +298,9 @@
             // 
             panel3.BackColor = Color.FromArgb(234, 246, 255);
             panel3.Controls.Add(pictureBox1);
-            panel3.Location = new Point(310, 118);
+            panel3.Location = new Point(325, 118);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1575, 897);
+            panel3.Size = new Size(1560, 897);
             panel3.TabIndex = 2;
             // 
             // pictureBox1

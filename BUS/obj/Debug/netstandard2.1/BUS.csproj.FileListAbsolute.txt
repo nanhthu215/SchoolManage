@@ -13,3 +13,4 @@ C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Log
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\bin\Debug\netstandard2.1\DTO.pdb
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.csproj.AssemblyReference.cache
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.csproj.Up2Date
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\BUS\obj\Debug\netstandard2.1\BUS.sourcelink.json

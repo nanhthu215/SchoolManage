@@ -58,9 +58,9 @@
             // groupBox3
             // 
             groupBox3.Controls.Add(grd);
-            groupBox3.Location = new Point(106, 326);
+            groupBox3.Location = new Point(63, 315);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1342, 458);
+            groupBox3.Size = new Size(1420, 507);
             groupBox3.TabIndex = 8;
             groupBox3.TabStop = false;
             groupBox3.Text = "Danh sách học phí";
@@ -72,7 +72,7 @@
             grd.Location = new Point(6, 24);
             grd.Name = "grd";
             grd.RowHeadersWidth = 51;
-            grd.Size = new Size(1330, 428);
+            grd.Size = new Size(1408, 477);
             grd.TabIndex = 0;
             grd.CellContentClick += grd_CellContentClick;
             grd.SelectionChanged += grd_SelectionChanged;
@@ -84,9 +84,9 @@
             groupBox2.Controls.Add(bDel);
             groupBox2.Controls.Add(bEdit);
             groupBox2.Controls.Add(bAdd);
-            groupBox2.Location = new Point(106, 236);
+            groupBox2.Location = new Point(63, 225);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1342, 84);
+            groupBox2.Size = new Size(1420, 84);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chức năng";
@@ -156,9 +156,9 @@
             grb.Controls.Add(label3);
             grb.Controls.Add(label2);
             grb.Controls.Add(label1);
-            grb.Location = new Point(105, 38);
+            grb.Location = new Point(63, 27);
             grb.Name = "grb";
-            grb.Size = new Size(1343, 192);
+            grb.Size = new Size(1420, 192);
             grb.TabIndex = 6;
             grb.TabStop = false;
             grb.Text = "Thông tin học phí";
@@ -166,17 +166,17 @@
             // cbSID
             // 
             cbSID.FormattingEnabled = true;
-            cbSID.Location = new Point(856, 25);
+            cbSID.Location = new Point(859, 46);
             cbSID.Name = "cbSID";
-            cbSID.Size = new Size(422, 28);
+            cbSID.Size = new Size(468, 28);
             cbSID.TabIndex = 14;
             cbSID.SelectedIndexChanged += cbSID_SelectedIndexChanged;
             // 
             // bPDF
             // 
-            bPDF.Location = new Point(1089, 120);
+            bPDF.Location = new Point(1110, 137);
             bPDF.Name = "bPDF";
-            bPDF.Size = new Size(189, 43);
+            bPDF.Size = new Size(217, 43);
             bPDF.TabIndex = 13;
             bPDF.Text = "In Hóa Đơn";
             bPDF.UseVisualStyleBackColor = true;
@@ -184,9 +184,9 @@
             // 
             // bPayment
             // 
-            bPayment.Location = new Point(853, 120);
+            bPayment.Location = new Point(859, 137);
             bPayment.Name = "bPayment";
-            bPayment.Size = new Size(189, 43);
+            bPayment.Size = new Size(220, 43);
             bPayment.TabIndex = 12;
             bPayment.Text = "Thanh Toán";
             bPayment.UseVisualStyleBackColor = true;
@@ -195,28 +195,28 @@
             // cbStatus
             // 
             cbStatus.FormattingEnabled = true;
-            cbStatus.Location = new Point(856, 66);
+            cbStatus.Location = new Point(859, 83);
             cbStatus.Name = "cbStatus";
-            cbStatus.Size = new Size(422, 28);
+            cbStatus.Size = new Size(468, 28);
             cbStatus.TabIndex = 3;
             // 
             // txtA
             // 
-            txtA.Location = new Point(137, 108);
+            txtA.Location = new Point(194, 120);
             txtA.Name = "txtA";
             txtA.Size = new Size(468, 27);
             txtA.TabIndex = 4;
             // 
             // txtTID
             // 
-            txtTID.Location = new Point(137, 30);
+            txtTID.Location = new Point(194, 42);
             txtTID.Name = "txtTID";
             txtTID.Size = new Size(468, 27);
             txtTID.TabIndex = 0;
             // 
             // dt
             // 
-            dt.Location = new Point(137, 69);
+            dt.Location = new Point(194, 81);
             dt.Name = "dt";
             dt.Size = new Size(468, 27);
             dt.TabIndex = 2;
@@ -224,7 +224,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(770, 33);
+            label8.Location = new Point(773, 50);
             label8.Name = "label8";
             label8.Size = new Size(68, 20);
             label8.TabIndex = 7;
@@ -233,7 +233,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(770, 69);
+            label7.Location = new Point(773, 86);
             label7.Name = "label7";
             label7.Size = new Size(75, 20);
             label7.TabIndex = 6;
@@ -242,7 +242,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(26, 111);
+            label3.Location = new Point(83, 123);
             label3.Name = "label3";
             label3.Size = new Size(58, 20);
             label3.TabIndex = 2;
@@ -251,7 +251,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(26, 71);
+            label2.Location = new Point(83, 83);
             label2.Name = "label2";
             label2.Size = new Size(89, 20);
             label2.TabIndex = 1;
@@ -260,7 +260,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(26, 33);
+            label1.Location = new Point(83, 45);
             label1.Name = "label1";
             label1.Size = new Size(85, 20);
             label1.TabIndex = 0;

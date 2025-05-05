@@ -8,3 +8,4 @@ C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Log
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.dll
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.pdb
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.csproj.AssemblyReference.cache
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\DTO\obj\Debug\netstandard2.1\DTO.sourcelink.json

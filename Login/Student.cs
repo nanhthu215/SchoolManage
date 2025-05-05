@@ -48,8 +48,12 @@ namespace GUI
             cbGT.Items.Clear();
             cbGT.Items.Add("Nam");
             cbGT.Items.Add("Nữ");
-            cbGT.SelectedIndex = 0;
-
+            cbGT.SelectedIndex = -1;
+            cbFilter.Items.Clear();
+            cbFilter.Items.Add("Tất cả");
+            cbFilter.Items.Add("Đang học");
+            cbFilter.Items.Add("Đã tốt nghiệp");
+            cbFilter.SelectedIndex = -1;
             vohieuhoa(true);
             if (Program.Role == "Phuhuynh")
             {
@@ -59,10 +63,11 @@ namespace GUI
                 bDel.Enabled = false;
                 bEdit.Enabled = false;
                 bCal.Enabled = false;
+                grd.Columns["Datotnghiep"].ReadOnly = true;
             }
             else
             {
-
+                grd.Columns["Datotnghiep"].ReadOnly = true;
             }
         }
 
@@ -93,15 +98,16 @@ namespace GUI
             vohieuhoa(false);
             txtSID.Text = bs.getSID();
             txtName.Focus();
-            bEdit.Enabled = false; 
+            bEdit.Enabled = false;
             bDel.Enabled = false;
             bSave.Enabled = true;
-            txtName.Text = ""; 
+            txtName.Text = "";
             txtAddress.Text = "";
             txtSDT.Text = "";
-            cbGT.Text = ""; 
-            dt.Value = DateTime.Now; 
-            cbClass.SelectedIndex = -1; 
+            cbGT.Text = "";
+            dt.Value = DateTime.Now;
+            cbClass.SelectedIndex = -1;
+            cbFilter.Enabled = false;
         }
 
         private void bDel_Click(object sender, EventArgs e)
@@ -150,6 +156,7 @@ namespace GUI
                 bAdd.Enabled = false;
                 bDel.Enabled = false;
                 bSave.Enabled = true;
+                cbFilter.Enabled = false;
             }
         }
 
@@ -175,21 +182,22 @@ namespace GUI
                 bs = new BUS_Student(txtSID.Text, txtName.Text, txtAddress.Text, txtSDT.Text, DateTime.Parse(dt.Text), gioiTinh, maLop);
                 bs.updateQuery();
             }
-            dk = 0; 
-            bAdd.Enabled = true; 
+            dk = 0;
+            bAdd.Enabled = true;
             bDel.Enabled = true;
             bEdit.Enabled = true;
             bSave.Enabled = false;
             txtSID.ReadOnly = false;
+            cbFilter.Enabled = true;
             txtSID.Text = "";
-            txtName.Text = ""; 
+            txtName.Text = "";
             txtAddress.Text = "";
-            txtSDT.Text = ""; 
+            txtSDT.Text = "";
             cbGT.Text = "";
-            dt.Value = DateTime.Now; 
-            cbClass.SelectedIndex = -1; 
-            grd.DataSource = bs.selectQuery();  
-            Student_Load(sender,e);
+            dt.Value = DateTime.Now;
+            cbClass.SelectedIndex = -1;
+            grd.DataSource = bs.selectQuery();
+            Student_Load(sender, e);
         }
 
         private void grd_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -218,10 +226,31 @@ namespace GUI
             cbGT.Text = "";
             dt.Value = DateTime.Now;
             cbClass.SelectedIndex = -1;
-
+            cbFilter.Enabled = true;
+            txtSID.ReadOnly = false;
             bAdd.Enabled = true;
             bDel.Enabled = true;
             bEdit.Enabled = true;
+        }
+
+        private void cbFilter_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            string whereClause = "";
+
+            switch (cbFilter.SelectedIndex)
+            {
+                case 1: // Đang học (Graduated = 0)
+                    whereClause = "WHERE Datotnghiep = 0";
+                    break;
+                case 2: // Đã tốt nghiệp (Graduated = 1)
+                    whereClause = "WHERE Datotnghiep = 1";
+                    break;
+                default:
+                    whereClause = ""; // Tất cả
+                    break;
+            }
+
+            grd.DataSource = bs.selectQuery(whereClause);
         }
     }
 }

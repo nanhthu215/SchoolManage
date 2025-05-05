@@ -55,9 +55,9 @@
             // groupBox3
             // 
             groupBox3.Controls.Add(grd);
-            groupBox3.Location = new Point(106, 308);
+            groupBox3.Location = new Point(53, 308);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1356, 478);
+            groupBox3.Size = new Size(1441, 518);
             groupBox3.TabIndex = 8;
             groupBox3.TabStop = false;
             groupBox3.Text = "Danh sách ";
@@ -69,7 +69,7 @@
             grd.Location = new Point(6, 24);
             grd.Name = "grd";
             grd.RowHeadersWidth = 51;
-            grd.Size = new Size(1343, 448);
+            grd.Size = new Size(1429, 488);
             grd.TabIndex = 0;
             grd.CellContentClick += grd_CellContentClick;
             // 
@@ -79,16 +79,16 @@
             groupBox2.Controls.Add(bSave);
             groupBox2.Controls.Add(bDel);
             groupBox2.Controls.Add(bEdit);
-            groupBox2.Location = new Point(106, 208);
+            groupBox2.Location = new Point(53, 218);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1356, 84);
+            groupBox2.Size = new Size(1441, 84);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chức năng";
             // 
             // bCal
             // 
-            bCal.Location = new Point(1146, 26);
+            bCal.Location = new Point(1188, 26);
             bCal.Name = "bCal";
             bCal.Size = new Size(136, 43);
             bCal.TabIndex = 8;
@@ -98,7 +98,7 @@
             // 
             // bSave
             // 
-            bSave.Location = new Point(807, 26);
+            bSave.Location = new Point(835, 26);
             bSave.Name = "bSave";
             bSave.Size = new Size(136, 43);
             bSave.TabIndex = 7;
@@ -108,7 +108,7 @@
             // 
             // bDel
             // 
-            bDel.Location = new Point(445, 26);
+            bDel.Location = new Point(456, 26);
             bDel.Name = "bDel";
             bDel.Size = new Size(136, 43);
             bDel.TabIndex = 6;
@@ -138,9 +138,9 @@
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(105, 37);
+            groupBox1.Location = new Point(53, 24);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1357, 165);
+            groupBox1.Size = new Size(1441, 178);
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin chung";
@@ -148,7 +148,7 @@
             // cbSID
             // 
             cbSID.FormattingEnabled = true;
-            cbSID.Location = new Point(153, 27);
+            cbSID.Location = new Point(194, 34);
             cbSID.Name = "cbSID";
             cbSID.Size = new Size(466, 28);
             cbSID.TabIndex = 0;
@@ -156,28 +156,28 @@
             // 
             // txtCN
             // 
-            txtCN.Location = new Point(817, 27);
+            txtCN.Location = new Point(858, 34);
             txtCN.Name = "txtCN";
             txtCN.Size = new Size(466, 27);
             txtCN.TabIndex = 1;
             // 
             // txtCC
             // 
-            txtCC.Location = new Point(153, 73);
+            txtCC.Location = new Point(194, 80);
             txtCC.Name = "txtCC";
             txtCC.Size = new Size(466, 27);
             txtCC.TabIndex = 2;
             // 
             // dt
             // 
-            dt.Location = new Point(153, 121);
+            dt.Location = new Point(194, 128);
             dt.Name = "dt";
             dt.Size = new Size(468, 27);
             dt.TabIndex = 4;
             // 
             // txtS
             // 
-            txtS.Location = new Point(817, 73);
+            txtS.Location = new Point(858, 80);
             txtS.Name = "txtS";
             txtS.Size = new Size(466, 27);
             txtS.TabIndex = 3;
@@ -185,7 +185,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(718, 76);
+            label2.Location = new Point(759, 83);
             label2.Name = "label2";
             label2.Size = new Size(80, 20);
             label2.TabIndex = 10;
@@ -194,25 +194,25 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(718, 35);
+            label9.Location = new Point(751, 41);
             label9.Name = "label9";
-            label9.Size = new Size(71, 20);
+            label9.Size = new Size(101, 20);
             label9.TabIndex = 8;
-            label9.Text = "Cân nặng";
+            label9.Text = "Cân nặng (kg)";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(45, 76);
+            label8.Location = new Point(86, 83);
             label8.Name = "label8";
-            label8.Size = new Size(74, 20);
+            label8.Size = new Size(108, 20);
             label8.TabIndex = 7;
-            label8.Text = "Chiều cao";
+            label8.Text = "Chiều cao (cm)";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(45, 126);
+            label6.Location = new Point(86, 133);
             label6.Name = "label6";
             label6.Size = new Size(102, 20);
             label6.TabIndex = 5;
@@ -221,7 +221,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(45, 30);
+            label1.Location = new Point(86, 37);
             label1.Name = "label1";
             label1.Size = new Size(66, 20);
             label1.TabIndex = 0;
@@ -232,7 +232,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(234, 246, 255);
-            ClientSize = new Size(1553, 822);
+            ClientSize = new Size(1553, 850);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);

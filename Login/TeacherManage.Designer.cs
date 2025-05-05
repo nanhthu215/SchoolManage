@@ -60,12 +60,11 @@
             // groupBox3
             // 
             groupBox3.Controls.Add(grd);
-            groupBox3.Location = new Point(106, 326);
+            groupBox3.Location = new Point(54, 326);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1342, 458);
+            groupBox3.Size = new Size(1440, 504);
             groupBox3.TabIndex = 5;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Danh sách giáo viên";
             // 
             // grd
             // 
@@ -74,7 +73,7 @@
             grd.Location = new Point(6, 24);
             grd.Name = "grd";
             grd.RowHeadersWidth = 51;
-            grd.Size = new Size(1330, 428);
+            grd.Size = new Size(1428, 473);
             grd.TabIndex = 0;
             grd.CellContentClick += grd_CellContentClick;
             // 
@@ -85,16 +84,16 @@
             groupBox2.Controls.Add(bDel);
             groupBox2.Controls.Add(bEdit);
             groupBox2.Controls.Add(bAdd);
-            groupBox2.Location = new Point(106, 236);
+            groupBox2.Location = new Point(54, 236);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1342, 84);
+            groupBox2.Size = new Size(1440, 84);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chức năng";
             // 
             // bCal
             // 
-            bCal.Location = new Point(1100, 26);
+            bCal.Location = new Point(1195, 26);
             bCal.Name = "bCal";
             bCal.Size = new Size(136, 43);
             bCal.TabIndex = 11;
@@ -104,7 +103,7 @@
             // 
             // bSave
             // 
-            bSave.Location = new Point(835, 26);
+            bSave.Location = new Point(922, 26);
             bSave.Name = "bSave";
             bSave.Size = new Size(136, 43);
             bSave.TabIndex = 10;
@@ -114,7 +113,7 @@
             // 
             // bDel
             // 
-            bDel.Location = new Point(359, 26);
+            bDel.Location = new Point(349, 26);
             bDel.Name = "bDel";
             bDel.Size = new Size(136, 43);
             bDel.TabIndex = 8;
@@ -124,7 +123,7 @@
             // 
             // bEdit
             // 
-            bEdit.Location = new Point(592, 26);
+            bEdit.Location = new Point(632, 26);
             bEdit.Name = "bEdit";
             bEdit.Size = new Size(136, 43);
             bEdit.TabIndex = 9;
@@ -134,7 +133,7 @@
             // 
             // bAdd
             // 
-            bAdd.Location = new Point(136, 26);
+            bAdd.Location = new Point(84, 26);
             bAdd.Name = "bAdd";
             bAdd.Size = new Size(136, 43);
             bAdd.TabIndex = 7;
@@ -159,16 +158,16 @@
             grb.Controls.Add(label3);
             grb.Controls.Add(label2);
             grb.Controls.Add(label1);
-            grb.Location = new Point(105, 38);
+            grb.Location = new Point(54, 19);
             grb.Name = "grb";
-            grb.Size = new Size(1343, 197);
+            grb.Size = new Size(1440, 211);
             grb.TabIndex = 3;
             grb.TabStop = false;
             grb.Text = "Thông tin giáo viên";
             // 
             // txtE
             // 
-            txtE.Location = new Point(137, 151);
+            txtE.Location = new Point(152, 156);
             txtE.Name = "txtE";
             txtE.Size = new Size(468, 27);
             txtE.TabIndex = 6;
@@ -176,35 +175,35 @@
             // cbGT
             // 
             cbGT.FormattingEnabled = true;
-            cbGT.Location = new Point(856, 66);
+            cbGT.Location = new Point(871, 71);
             cbGT.Name = "cbGT";
             cbGT.Size = new Size(422, 28);
             cbGT.TabIndex = 3;
             // 
             // txtAddress
             // 
-            txtAddress.Location = new Point(137, 108);
+            txtAddress.Location = new Point(152, 113);
             txtAddress.Name = "txtAddress";
             txtAddress.Size = new Size(468, 27);
             txtAddress.TabIndex = 4;
             // 
             // txtSDT
             // 
-            txtSDT.Location = new Point(853, 108);
+            txtSDT.Location = new Point(868, 113);
             txtSDT.Name = "txtSDT";
             txtSDT.Size = new Size(425, 27);
             txtSDT.TabIndex = 5;
             // 
             // txtName
             // 
-            txtName.Location = new Point(853, 30);
+            txtName.Location = new Point(868, 35);
             txtName.Name = "txtName";
             txtName.Size = new Size(425, 27);
             txtName.TabIndex = 1;
             // 
             // txtTID
             // 
-            txtTID.Location = new Point(137, 30);
+            txtTID.Location = new Point(152, 35);
             txtTID.Name = "txtTID";
             txtTID.Size = new Size(468, 27);
             txtTID.TabIndex = 0;
@@ -212,7 +211,7 @@
             // 
             // dt
             // 
-            dt.Location = new Point(137, 69);
+            dt.Location = new Point(152, 74);
             dt.Name = "dt";
             dt.Size = new Size(468, 27);
             dt.TabIndex = 2;
@@ -220,7 +219,7 @@
             // txtEmail
             // 
             txtEmail.AutoSize = true;
-            txtEmail.Location = new Point(26, 154);
+            txtEmail.Location = new Point(41, 159);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(46, 20);
             txtEmail.TabIndex = 8;
@@ -229,7 +228,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(770, 31);
+            label8.Location = new Point(785, 36);
             label8.Name = "label8";
             label8.Size = new Size(58, 20);
             label8.TabIndex = 7;
@@ -238,7 +237,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(770, 69);
+            label7.Location = new Point(785, 74);
             label7.Name = "label7";
             label7.Size = new Size(65, 20);
             label7.TabIndex = 6;
@@ -247,7 +246,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(770, 109);
+            label6.Location = new Point(785, 114);
             label6.Name = "label6";
             label6.Size = new Size(35, 20);
             label6.TabIndex = 5;
@@ -256,7 +255,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(26, 111);
+            label3.Location = new Point(41, 116);
             label3.Name = "label3";
             label3.Size = new Size(55, 20);
             label3.TabIndex = 2;
@@ -265,7 +264,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(26, 71);
+            label2.Location = new Point(41, 76);
             label2.Name = "label2";
             label2.Size = new Size(74, 20);
             label2.TabIndex = 1;
@@ -274,7 +273,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(26, 33);
+            label1.Location = new Point(41, 38);
             label1.Name = "label1";
             label1.Size = new Size(114, 20);
             label1.TabIndex = 0;
@@ -285,7 +284,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(234, 246, 255);
-            ClientSize = new Size(1552, 822);
+            ClientSize = new Size(1552, 851);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(grb);

@@ -84,5 +84,20 @@ namespace DAL
             string s = "select top 1 MaLop from Lop order by MaLop desc";
             return Connection.selectQuery(s);
         }
+        public int CountStudentsInClass(string classId)
+        {
+            int count = 0;
+            using (SqlConnection conn = new SqlConnection(Connection.ConnectionString))
+            {
+                string query = "SELECT COUNT(*) FROM HocSinh WHERE MaLop = @MaLop";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@MaLop", classId);
+                conn.Open();
+                count = (int)cmd.ExecuteScalar();
+            }
+            return count;
+        }
+
+
     }
 }

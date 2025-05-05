@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Text;
 
 namespace BUS
@@ -47,6 +48,12 @@ namespace BUS
         {
             return dc.selectTeacherList();
         }
+
+        public int CountStudentsInClass(string classId)
+        {
+            DAL_Class dal = new DAL_Class("", "", "", "");
+            return dal.CountStudentsInClass(classId);
+        }
         public string getCID()
         {
             DataTable tb = dc.getClassDesc();
@@ -70,5 +77,23 @@ namespace BUS
             }
             return "L01";
         }
+
+
+        public void MarkAllGraduated(string maLop)
+        {
+            string query = @"
+        UPDATE HocSinh 
+        SET Datotnghiep = 1, MaLop = NULL 
+        WHERE MaLop = @MaLop";
+
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+        new SqlParameter("@MaLop", maLop)
+            };
+
+            // Gọi phương thức truy vấn để thực hiện câu lệnh
+            Connection.ActionQueryNoReturn(query, parameters);
+        }
+
     }
 }

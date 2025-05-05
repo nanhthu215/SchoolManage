@@ -46,9 +46,9 @@
             // groupBox3
             // 
             groupBox3.Controls.Add(grd);
-            groupBox3.Location = new Point(106, 261);
+            groupBox3.Location = new Point(59, 252);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1342, 512);
+            groupBox3.Size = new Size(1441, 576);
             groupBox3.TabIndex = 5;
             groupBox3.TabStop = false;
             groupBox3.Text = "Danh sách đánh giá";
@@ -57,10 +57,10 @@
             // 
             grd.BackgroundColor = SystemColors.ActiveBorder;
             grd.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            grd.Location = new Point(15, 26);
+            grd.Location = new Point(6, 26);
             grd.Name = "grd";
             grd.RowHeadersWidth = 51;
-            grd.Size = new Size(1321, 472);
+            grd.Size = new Size(1429, 544);
             grd.TabIndex = 0;
             grd.CellContentClick += grd_CellContentClick;
             // 
@@ -72,9 +72,9 @@
             groupBox1.Controls.Add(n1);
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(105, 58);
+            groupBox1.Location = new Point(59, 22);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1343, 197);
+            groupBox1.Size = new Size(1441, 197);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Đánh giá chất lượng của phụ huynh";
@@ -138,7 +138,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(234, 246, 255);
-            ClientSize = new Size(1553, 822);
+            ClientSize = new Size(1553, 851);
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);
             Name = "Danhgia";

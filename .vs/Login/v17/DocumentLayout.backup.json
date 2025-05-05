@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\login\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\tuiition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\tuiition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A6F1E0E-848D-4FA5-8507-75DE8962B1DA}|DAL\\DAL.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F1E0E-848D-4FA5-8507-75DE8962B1DA}|DAL\\DAL.csproj|solutionrelative:dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\tuiition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\tuiition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\teachermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\teachermanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\healthcare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\healthcare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\classmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\classmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\login\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|c:\\users\\pc1\\documents\\downloads\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\school management\\login\\login\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11BA6E22-B13E-43A2-96F7-3D37E5F2AAC4}|Login\\GUI.csproj|solutionrelative:login\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +50,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Home.cs",
-              "RelativeDocumentMoniker": "Login\\Home.cs",
-              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Home.cs*",
-              "RelativeToolTip": "Login\\Home.cs*",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAvwJ8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Tuiition.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Tuiition.cs",
+              "RelativeDocumentMoniker": "Login\\Tuiition.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Tuiition.cs",
+              "RelativeToolTip": "Login\\Tuiition.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAQwL8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T03:15:17.76Z",
+              "WhenOpened": "2025-05-05T17:14:14.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\DAL\\Connection.cs",
+              "RelativeDocumentMoniker": "DAL\\Connection.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\DAL\\Connection.cs",
+              "RelativeToolTip": "DAL\\Connection.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:13:50.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Home.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Home.cs",
               "RelativeDocumentMoniker": "Login\\Home.cs",
-              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Home.cs [Design]*",
-              "RelativeToolTip": "Login\\Home.cs [Design]*",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Home.cs [Design]",
+              "RelativeToolTip": "Login\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T06:50:02.142Z",
+              "WhenOpened": "2025-05-05T15:06:07.052Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeacherManage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\TeacherManage.cs",
+              "RelativeDocumentMoniker": "Login\\TeacherManage.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\TeacherManage.cs [Design]",
+              "RelativeToolTip": "Login\\TeacherManage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:06:10.674Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Danhgia.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Danhgia.cs",
+              "RelativeDocumentMoniker": "Login\\Danhgia.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Danhgia.cs [Design]",
+              "RelativeToolTip": "Login\\Danhgia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:06:00.641Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangePwd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\ChangePwd.cs",
+              "RelativeDocumentMoniker": "Login\\ChangePwd.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\ChangePwd.cs [Design]",
+              "RelativeToolTip": "Login\\ChangePwd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:05:58.369Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HealthCare.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\HealthCare.cs",
+              "RelativeDocumentMoniker": "Login\\HealthCare.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\HealthCare.cs [Design]",
+              "RelativeToolTip": "Login\\HealthCare.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:06:05.536Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tuiition.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Tuiition.cs",
+              "RelativeDocumentMoniker": "Login\\Tuiition.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Tuiition.cs [Design]",
+              "RelativeToolTip": "Login\\Tuiition.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:06:11.983Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClassManage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\ClassManage.cs",
+              "RelativeDocumentMoniker": "Login\\ClassManage.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\ClassManage.cs [Design]",
+              "RelativeToolTip": "Login\\ClassManage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:54:38.206Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Student.cs",
+              "RelativeDocumentMoniker": "Login\\Student.cs",
+              "ToolTip": "C:\\Users\\PC1\\Documents\\Downloads\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\School Management\\Login\\Login\\Student.cs [Design]",
+              "RelativeToolTip": "Login\\Student.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:02:47.323Z",
               "EditorCaption": " [Design]"
             }
           ]

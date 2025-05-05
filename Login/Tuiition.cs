@@ -34,6 +34,8 @@ namespace GUI
     {
         BUS_Tuition bt;
         int dk = 0;
+        bool isAdding = false;
+
         public Tuiition()
         {
             InitializeComponent();
@@ -105,6 +107,7 @@ namespace GUI
 
         private void bAdd_Click(object sender, EventArgs e)
         {
+            isAdding = true;
             dk = 1;
             vohieuhoa(false);
             cbSID.Focus();
@@ -180,13 +183,13 @@ namespace GUI
             if (dk == 1)
             {//string maHS, DateTime duedate, decimal amount, string status
                 // Thêm mới
-                bt = new BUS_Tuition(cbSID.Text, DateTime.Parse(dt.Text), decimal.Parse(txtA.Text), status);
+                bt = new BUS_Tuition(maHS, DateTime.Parse(dt.Text), decimal.Parse(txtA.Text), status);
                 bt.addQuery();
             }
             else if (dk == 2)
             {
                 // Chỉnh sửa
-                bt = new BUS_Tuition(cbSID.Text, DateTime.Parse(dt.Text), decimal.Parse(txtA.Text), status);
+                bt = new BUS_Tuition(maHS, DateTime.Parse(dt.Text), decimal.Parse(txtA.Text), status);
                 bt.updateQuery();
             }
             dk = 0;
@@ -196,6 +199,7 @@ namespace GUI
             bEdit.Enabled = true;
             bSave.Enabled = false;
             cbSID.Enabled = true;
+            isAdding = false;
             cbSID.Text = "";
             txtA.Text = "";
             cbStatus.Text = "";
@@ -210,6 +214,7 @@ namespace GUI
             cbSID.Text = "";
             txtA.Text = "";
             txtTID.Text = "";
+            isAdding = false;
             dt.Value = DateTime.Now;
             cbStatus.SelectedIndex = -1;
 
@@ -362,6 +367,7 @@ namespace GUI
 
         private void cbSID_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (isAdding) return;
             if (cbSID.SelectedValue != null)
             {
                 string maHS = cbSID.SelectedValue.ToString();

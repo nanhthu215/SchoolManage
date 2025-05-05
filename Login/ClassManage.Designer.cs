@@ -38,6 +38,7 @@
             bEdit = new Button();
             bAdd = new Button();
             groupBox1 = new GroupBox();
+            bMarkGraduated = new Button();
             bShow = new Button();
             txtYear = new TextBox();
             txtName = new TextBox();
@@ -56,9 +57,9 @@
             // groupBox3
             // 
             groupBox3.Controls.Add(grd);
-            groupBox3.Location = new Point(103, 306);
+            groupBox3.Location = new Point(61, 312);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1355, 486);
+            groupBox3.Size = new Size(1419, 507);
             groupBox3.TabIndex = 5;
             groupBox3.TabStop = false;
             groupBox3.Text = "Danh sách học sinh";
@@ -70,7 +71,7 @@
             grd.Location = new Point(6, 24);
             grd.Name = "grd";
             grd.RowHeadersWidth = 51;
-            grd.Size = new Size(1343, 456);
+            grd.Size = new Size(1407, 483);
             grd.TabIndex = 0;
             grd.CellContentClick += grd_CellContentClick;
             // 
@@ -82,9 +83,9 @@
             groupBox2.Controls.Add(bDel);
             groupBox2.Controls.Add(bEdit);
             groupBox2.Controls.Add(bAdd);
-            groupBox2.Location = new Point(103, 206);
+            groupBox2.Location = new Point(61, 212);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1355, 94);
+            groupBox2.Size = new Size(1419, 94);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chức năng";
@@ -151,6 +152,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(bMarkGraduated);
             groupBox1.Controls.Add(bShow);
             groupBox1.Controls.Add(txtYear);
             groupBox1.Controls.Add(txtName);
@@ -160,19 +162,29 @@
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(102, 35);
+            groupBox1.Location = new Point(61, 25);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1356, 165);
+            groupBox1.Size = new Size(1419, 181);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin lớp học";
             groupBox1.Enter += groupBox1_Enter;
             // 
+            // bMarkGraduated
+            // 
+            bMarkGraduated.Location = new Point(1100, 94);
+            bMarkGraduated.Name = "bMarkGraduated";
+            bMarkGraduated.Size = new Size(212, 43);
+            bMarkGraduated.TabIndex = 9;
+            bMarkGraduated.Text = "Xác nhận tốt nghiệp";
+            bMarkGraduated.UseVisualStyleBackColor = true;
+            bMarkGraduated.Click += bMarkGraduated_Click;
+            // 
             // bShow
             // 
-            bShow.Location = new Point(801, 86);
+            bShow.Location = new Point(844, 94);
             bShow.Name = "bShow";
-            bShow.Size = new Size(468, 43);
+            bShow.Size = new Size(220, 43);
             bShow.TabIndex = 4;
             bShow.Text = "Hiển thị danh sách học sinh";
             bShow.UseVisualStyleBackColor = true;
@@ -180,21 +192,21 @@
             // 
             // txtYear
             // 
-            txtYear.Location = new Point(139, 124);
+            txtYear.Location = new Point(169, 131);
             txtYear.Name = "txtYear";
             txtYear.Size = new Size(466, 27);
             txtYear.TabIndex = 2;
             // 
             // txtName
             // 
-            txtName.Location = new Point(139, 75);
+            txtName.Location = new Point(167, 80);
             txtName.Name = "txtName";
             txtName.Size = new Size(468, 27);
             txtName.TabIndex = 1;
             // 
             // txtCID
             // 
-            txtCID.Location = new Point(139, 28);
+            txtCID.Location = new Point(169, 35);
             txtCID.Name = "txtCID";
             txtCID.Size = new Size(468, 27);
             txtCID.TabIndex = 0;
@@ -202,16 +214,15 @@
             // 
             // cbGVCN
             // 
-            cbGVCN.FormattingEnabled = true;
-            cbGVCN.Location = new Point(801, 27);
+            cbGVCN.Location = new Point(844, 34);
             cbGVCN.Name = "cbGVCN";
             cbGVCN.Size = new Size(468, 28);
-            cbGVCN.TabIndex = 3;
+            cbGVCN.TabIndex = 5;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(718, 35);
+            label9.Location = new Point(761, 41);
             label9.Name = "label9";
             label9.Size = new Size(48, 20);
             label9.TabIndex = 8;
@@ -220,7 +231,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(56, 76);
+            label8.Location = new Point(86, 83);
             label8.Name = "label8";
             label8.Size = new Size(58, 20);
             label8.TabIndex = 7;
@@ -229,7 +240,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(47, 127);
+            label6.Location = new Point(77, 134);
             label6.Name = "label6";
             label6.Size = new Size(76, 20);
             label6.TabIndex = 5;
@@ -238,7 +249,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(58, 31);
+            label1.Location = new Point(88, 38);
             label1.Name = "label1";
             label1.Size = new Size(56, 20);
             label1.TabIndex = 0;
@@ -278,12 +289,13 @@
         private TextBox txtYear;
         private TextBox txtName;
         private TextBox txtCID;
-        private ComboBox cbGVCN;
         private Label label9;
         private Label label8;
         private Label label6;
         private Label label1;
         private Button bPDF;
         private Button bShow;
+        private ComboBox cbGVCN;
+        private Button bMarkGraduated;
     }
 }

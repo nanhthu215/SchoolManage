@@ -51,6 +51,8 @@ namespace GUI
                 bDel.Enabled = false;
                 bEdit.Enabled = false;
                 bCal.Enabled = false;
+                cbGVCN.Enabled = false;
+                bMarkGraduated.Enabled = false;
             }
             else
             {
@@ -85,26 +87,36 @@ namespace GUI
             txtCID.Text = bc.getCID();
             txtName.Focus();
             bEdit.Enabled = false;
-            bDel.Enabled = false; 
+            bDel.Enabled = false;
             bSave.Enabled = true;
             txtName.Clear();
             txtYear.Clear();
             cbGVCN.SelectedIndex = -1;
+            bMarkGraduated.Enabled = false; 
         }
 
         private void bDel_Click(object sender, EventArgs e)
         {
             if (grd.CurrentRow != null)
             {
+                string cid = grd.CurrentRow.Cells["MaLop"].Value.ToString();
+
+                bc = new BUS_Class(cid, "", "", "");
+                int studentCount = bc.CountStudentsInClass(cid);
+
+                if (studentCount > 0)
+                {
+                    MessageBox.Show("Không thể xóa lớp vì vẫn còn học sinh trong lớp này.");
+                    return;
+                }
+
                 DialogResult result = MessageBox.Show("Bạn có chắc muốn xóa lớp học này?", "Chắc chắn", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
-                    string cid = grd.CurrentRow.Cells["MaLop"].Value.ToString();
-
                     bc = new BUS_Class(cid, "", "", "");
                     bc.deleteQuery();
 
-                    MessageBox.Show("Xóa Lớp học thành công!");
+                    MessageBox.Show("Xóa lớp học thành công!");
                     grd.DataSource = bc.selectQuery();
                 }
             }
@@ -112,6 +124,7 @@ namespace GUI
             {
                 MessageBox.Show("Vui lòng chọn lớp học muốn xóa.");
             }
+
             bSave.Enabled = false;
             txtCID.Clear();
             txtName.Clear();
@@ -135,6 +148,7 @@ namespace GUI
                 bAdd.Enabled = false;
                 bDel.Enabled = false;
                 bSave.Enabled = true;
+                bMarkGraduated.Enabled = false;
             }
         }
         private void bSave_Click(object sender, EventArgs e)
@@ -158,12 +172,13 @@ namespace GUI
                 bc = new BUS_Class(txtCID.Text, txtName.Text, gvcn, txtYear.Text);
                 bc.updateQuery();
             }
-            dk = 0; 
+            dk = 0;
             bAdd.Enabled = true;
-            bDel.Enabled = true; 
+            bDel.Enabled = true;
             bEdit.Enabled = true;
             bSave.Enabled = false;
             txtCID.ReadOnly = !true;
+            bMarkGraduated.Enabled = true;
             txtCID.Clear();
             txtName.Clear();
             txtYear.Clear();
@@ -184,6 +199,7 @@ namespace GUI
             bAdd.Enabled = true;
             bDel.Enabled = true;
             bEdit.Enabled = true;
+            grd.Enabled = true;
         }
 
         private void bPDF_Click(object sender, EventArgs e)
@@ -267,13 +283,14 @@ namespace GUI
 
         private void LoadTeacherList()
         {
-            cbGVCN.DataSource = bc.selectTeacherList();  
-            cbGVCN.DisplayMember = "HoTen"; 
+            cbGVCN.DataSource = bc.selectTeacherList();
+            cbGVCN.DisplayMember = "HoTen";
             cbGVCN.ValueMember = "MaGV";
         }
 
         private void grd_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
+        { 
+
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
                 DataGridViewRow row = grd.Rows[e.RowIndex];
@@ -298,6 +315,9 @@ namespace GUI
                 bDel.Enabled = false;
                 bEdit.Enabled = false;
                 bSave.Enabled = false;
+                grd.ReadOnly = true;
+
+                grd.Enabled = false;  
 
                 if (dt.Rows.Count > 0)
                 {
@@ -314,5 +334,30 @@ namespace GUI
                 MessageBox.Show("Vui lòng nhập mã lớp!");
             }
         }
+
+
+        private void bMarkGraduated_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtCID.Text))
+            {
+                MessageBox.Show("Vui lòng chọn lớp học.");
+                return;
+            }
+
+            string maLop = txtCID.Text.Trim();
+
+            DialogResult result = MessageBox.Show("Bạn có chắc muốn đánh dấu tất cả học sinh trong lớp này là đã tốt nghiệp? Điều này sẽ xóa tất cả học sinh trong lớp.", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                bc.MarkAllGraduated(maLop);
+
+                grd.DataSource = bc.selectStudentList(maLop);
+
+                MessageBox.Show("Đã đánh dấu tất cả học sinh trong lớp là đã tốt nghiệp và xóa danh sách học sinh.");
+            }
+        }
+
     }
 }
+

@@ -34,11 +34,6 @@ namespace BUS
             p.updateQuery();
         }
 
-        public void deleteQuery()
-        {
-            p.deleteQuery();
-        }
-
         public DataTable selectQuery()
         {
             return p.selectQuery();

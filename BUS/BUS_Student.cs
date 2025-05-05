@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -46,6 +47,12 @@ namespace BUS
         public DataTable selectClassList()
         {
             return p.selectClassList();
+        }
+
+        public DataTable selectQuery(string whereClause)
+        {
+            string query = "SELECT * FROM HocSinh " + whereClause;
+            return DAL.Connection.selectQuery(query);
         }
 
         public string getSID()

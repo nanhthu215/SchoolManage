@@ -57,10 +57,10 @@
             // 
             grd.BackgroundColor = SystemColors.ActiveBorder;
             grd.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            grd.Location = new Point(29, 26);
+            grd.Location = new Point(15, 26);
             grd.Name = "grd";
             grd.RowHeadersWidth = 51;
-            grd.Size = new Size(1343, 472);
+            grd.Size = new Size(1321, 472);
             grd.TabIndex = 0;
             grd.CellContentClick += grd_CellContentClick;
             // 
@@ -142,7 +142,7 @@
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);
             Name = "Danhgia";
-            Text = "Danhgia";
+            Text = "Đánh giá chất lượng giảng dạy";
             Load += Danhgia_Load;
             groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)grd).EndInit();

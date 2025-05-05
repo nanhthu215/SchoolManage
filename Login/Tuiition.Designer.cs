@@ -276,7 +276,7 @@
             Controls.Add(groupBox2);
             Controls.Add(grb);
             Name = "Tuiition";
-            Text = "Tuiition";
+            Text = "Quản lý học phí";
             Load += Tuiition_Load;
             groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)grd).EndInit();

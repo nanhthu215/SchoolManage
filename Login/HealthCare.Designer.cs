@@ -57,7 +57,7 @@
             groupBox3.Controls.Add(grd);
             groupBox3.Location = new Point(106, 308);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1342, 478);
+            groupBox3.Size = new Size(1356, 478);
             groupBox3.TabIndex = 8;
             groupBox3.TabStop = false;
             groupBox3.Text = "Danh sách ";
@@ -69,7 +69,7 @@
             grd.Location = new Point(6, 24);
             grd.Name = "grd";
             grd.RowHeadersWidth = 51;
-            grd.Size = new Size(1330, 448);
+            grd.Size = new Size(1343, 448);
             grd.TabIndex = 0;
             grd.CellContentClick += grd_CellContentClick;
             // 
@@ -81,7 +81,7 @@
             groupBox2.Controls.Add(bEdit);
             groupBox2.Location = new Point(106, 208);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1342, 84);
+            groupBox2.Size = new Size(1356, 84);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chức năng";
@@ -140,7 +140,7 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(105, 37);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1343, 165);
+            groupBox1.Size = new Size(1357, 165);
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin chung";
@@ -237,7 +237,7 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "HealthCare";
-            Text = "HealthCare";
+            Text = "Quản lý sức khỏe học sinh";
             Load += HealthCare_Load;
             groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)grd).EndInit();

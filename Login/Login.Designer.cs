@@ -91,6 +91,7 @@
             groupBox1.Controls.Add(txtDN);
             groupBox1.Controls.Add(pictureBox3);
             groupBox1.Controls.Add(pictureBox2);
+            groupBox1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox1.Location = new Point(428, 208);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(418, 277);
@@ -116,6 +117,7 @@
             txtMK.Multiline = true;
             txtMK.Name = "txtMK";
             txtMK.PasswordChar = '*';
+            txtMK.PlaceholderText = "Password";
             txtMK.Size = new Size(264, 34);
             txtMK.TabIndex = 1;
             txtMK.WordWrap = false;
@@ -126,6 +128,7 @@
             txtDN.Location = new Point(102, 56);
             txtDN.Multiline = true;
             txtDN.Name = "txtDN";
+            txtDN.PlaceholderText = "Username";
             txtDN.Size = new Size(264, 34);
             txtDN.TabIndex = 0;
             // 
@@ -152,22 +155,22 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial", 13.8F, FontStyle.Bold);
+            label1.Font = new Font("Arial", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(444, 91);
+            label1.Location = new Point(419, 92);
             label1.Name = "label1";
-            label1.Size = new Size(366, 27);
+            label1.Size = new Size(449, 33);
             label1.TabIndex = 2;
-            label1.Text = "HỆ THỐNG QUẢN LÝ GIÁO DỤC";
+            label1.Text = "ỨNG DỤNG QUẢN LÝ GIÁO DỤC";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Arial", 13.8F, FontStyle.Bold);
+            label2.Font = new Font("Arial", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Red;
             label2.Location = new Point(544, 141);
             label2.Name = "label2";
-            label2.Size = new Size(153, 27);
+            label2.Size = new Size(181, 33);
             label2.TabIndex = 3;
             label2.Text = "ĐĂNG NHẬP";
             // 
@@ -182,7 +185,7 @@
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Name = "Login";
-            Text = "Login";
+            Text = "Đăng nhập";
             Load += Login_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);

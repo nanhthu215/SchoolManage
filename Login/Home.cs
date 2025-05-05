@@ -149,5 +149,15 @@ namespace GUI
             panel3.Controls.Add(tt);
             tt.Show();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void menuStrip3_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

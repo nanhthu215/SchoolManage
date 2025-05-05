@@ -80,3 +80,4 @@ C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Log
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\Login\bin\Debug\net8.0-windows\System.Text.Json.dll
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\Login\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\Login\obj\Debug\net8.0-windows\GUI.frmConfig.resources
+C:\Users\PC1\Documents\Downloads\Công nghệ phần mềm\School Management\Login\Login\obj\Debug\net8.0-windows\GUI.sourcelink.json

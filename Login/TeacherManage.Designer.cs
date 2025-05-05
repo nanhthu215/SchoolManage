@@ -290,7 +290,7 @@
             Controls.Add(groupBox2);
             Controls.Add(grb);
             Name = "TeacherManage";
-            Text = "TeacherManage";
+            Text = "Quản lý giáo viên";
             Load += TeacherManage_Load;
             groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)grd).EndInit();

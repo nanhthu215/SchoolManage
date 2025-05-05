@@ -58,7 +58,7 @@
             groupBox3.Controls.Add(grd);
             groupBox3.Location = new Point(103, 306);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1342, 478);
+            groupBox3.Size = new Size(1355, 486);
             groupBox3.TabIndex = 5;
             groupBox3.TabStop = false;
             groupBox3.Text = "Danh sách học sinh";
@@ -70,7 +70,7 @@
             grd.Location = new Point(6, 24);
             grd.Name = "grd";
             grd.RowHeadersWidth = 51;
-            grd.Size = new Size(1330, 448);
+            grd.Size = new Size(1343, 456);
             grd.TabIndex = 0;
             grd.CellContentClick += grd_CellContentClick;
             // 
@@ -84,7 +84,7 @@
             groupBox2.Controls.Add(bAdd);
             groupBox2.Location = new Point(103, 206);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1342, 84);
+            groupBox2.Size = new Size(1355, 94);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chức năng";
@@ -162,7 +162,7 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(102, 35);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1343, 165);
+            groupBox1.Size = new Size(1356, 165);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin lớp học";
@@ -254,7 +254,7 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "ClassManage";
-            Text = "ClassManage";
+            Text = "Quản lý lớp học";
             Load += ClassManage_Load;
             groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)grd).EndInit();
